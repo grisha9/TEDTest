@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TEDActivity">
+    <item android:id="@+id/action_search"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="" />
+    <item android:id="@+id/refresh"
+        android:title="@string/refresh"
+        android:showAsAction="always"/>
+</menu>
